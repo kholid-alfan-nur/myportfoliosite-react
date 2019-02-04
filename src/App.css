@@ -5,7 +5,7 @@
   
   
 }
-/* landing page */
+/* #region LandingPage */
 .landing-grid {
   background: #FC354C;  /* fallback for old browsers */
   background: -webkit-linear-gradient(to left, #0ABFBC, #FC354C);  /* Chrome 10-25, Safari 5.1-6 */
@@ -56,13 +56,15 @@
   font-size: 5em;
   padding: 8px;
 }
+/*#endregion */
 
-/* projects page */
+/* #region ProjectsPage */
 .projects-grid {
   display: flex;
 }
+/* #endregion */
 
-/* contact page */
+/* #region ContactPage */
 .contact-body{
   margin: auto;
   background: grey;
@@ -83,3 +85,25 @@
   border: 2px solid red;
   margin-bottom: 20px;
 }
+
+.contact-grid h2{
+  font-family:'Anton', sans-serif;
+}
+
+.contact-grid p{
+  font-family: 'Oxygen', sans-serif;
+  font-weight: bold;
+}
+
+.contact-grid hr {
+ border-top: 5px dotted black;
+ width:50%;
+ margin: auto;
+}
+
+.contact-list i {
+  font-size: 37px;
+  padding-right: 1rem;
+}
+
+/* #endregion */
